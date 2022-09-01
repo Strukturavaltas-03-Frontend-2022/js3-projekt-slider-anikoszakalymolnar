@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/slider.css">
+    <title>Slider-static</title>
+</head>
+
+<body>
+    <div id="mySlider">
+        <div class="slider">
+            <!-- Képek -->
+            <div class="slide fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="assets/img/img1.jpg">
+                <div class="text">Mountain</div>
+            </div>
+            <div class="slide fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="assets/img/img2.jpg">
+                <div class="text">Bridge</div>
+            </div>
+            <div class="slide fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="assets/img/img3.jpg">
+                <div class="text">Moon</div>
+            </div>
+            <!-- Előre-vissza -->
+            <a class="prev">❮</a>
+            <a class="next">❯</a>
+        </div>
+        <!-- Manuális gombok -->
+        <div class="dots">
+            <span class="dot">⬤</span>
+            <span class="dot">⬤</span>
+            <span class="dot">⬤</span>
+        </div>
+    </div>
+
+    <script type="module">
+        import {
+            initSlider, previousSlide, nextSlide, showSlide,
+        } from "./assets/js/slider.js";
+        initSlider();
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+/* Alapállapotban a képek méretének megadása/változtatása */
+:root {
+    --slider-width: 80%;
+    --slider-height: 400px;
+}
